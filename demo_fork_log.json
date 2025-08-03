@@ -1,0 +1,64 @@
+{
+    "fork_id": "fork_001-WiltseTest",
+    "timestamp": "2025-08-03T21:56:04.844499Z",
+    "prompt": "Optimize USB + GPU IRQ interaction under hybrid CPU",
+    "shadowWiltse": {
+        "forks_spawned": 5,
+        "forks": [
+            {
+                "fork_id": "fork_001A",
+                "verdict_score": 0.42,
+                "result": "rollback",
+                "reason": "conflict with audio device IRQ"
+            },
+            {
+                "fork_id": "fork_001B",
+                "verdict_score": 0.51,
+                "result": "rollback",
+                "reason": "introduced latency spike in NVMe path"
+            },
+            {
+                "fork_id": "fork_001C",
+                "verdict_score": 0.72,
+                "result": "accepted",
+                "registry_changes": {
+                    "InterruptModeration": 0,
+                    "UsePollingMode": 1,
+                    "AffinityPolicy-TargetSet": [
+                        2,
+                        3
+                    ]
+                },
+                "telemetry_delta": {
+                    "FPS_99_low": "+7.4%",
+                    "DPC_latency": "-22.1%",
+                    "InputLag_USB": "-17.3%"
+                }
+            },
+            {
+                "fork_id": "fork_001D",
+                "verdict_score": 0.61,
+                "result": "held",
+                "note": "requires secondary simulation"
+            },
+            {
+                "fork_id": "fork_001E",
+                "verdict_score": 0.38,
+                "result": "rollback",
+                "reason": "directive violation risk"
+            }
+        ],
+        "chosen_fork": "fork_001C",
+        "confidence_vector": {
+            "gain": 0.78,
+            "risk": 0.12,
+            "synergy": 0.81,
+            "reversibility": 0.95
+        },
+        "confirmed_by": [
+            "VerdictArbiterGPT",
+            "RegistrySafetyGPT",
+            "PerformanceForecasterGPT"
+        ]
+    }
+}
