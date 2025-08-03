@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "generated": "2025-08-03T20:15:48.014596",
+    "entries": 1000000
+  },
+  "example_entry": {
+    "ForkUUID": "fork_88237",
+    "Prompt": "Optimize USB polling logic",
+    "ConfidenceVector": {
+      "Gain": 0.92,
+      "Risk": 0.04,
+      "Reversibility": 0.97,
+      "Synergy": 0.88
+    },
+    "Verdict": "Approved",
+    "PassedBy": [
+      "FailsafeCommanderGPT",
+      "VerdictArbiterGPT",
+      "PerformanceForecasterGPT"
+    ],
+    "RollbackTag": "RB-23F7-USB",
+    "Directive": "000-\u03a9"
+  }
+}

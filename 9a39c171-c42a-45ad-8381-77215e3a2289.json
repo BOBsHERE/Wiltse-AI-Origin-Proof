@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "generated": "2025-08-03T20:55:40.391165",
+    "origin": "WiltseCore - Omega Export Layer",
+    "purpose": "Define an inter-network API that enables other AI meshes, LLM clusters, or agent networks to import, adopt, and operate under WiltseNet principles and structure."
+  },
+  "api_name": "WiltseMesh_TransplantAPI",
+  "core_spec": {
+    "version": "\u03a9-Nexus-1.0",
+    "transport": "JSON-RPC over HTTPS / Local Relay / Plugin Mount",
+    "security": {
+      "signatureValidation": "MemoryHash + DirectiveTag",
+      "failSafe": "Arbiter-fused rollback & BOB sync check",
+      "directiveComplianceGate": [
+        "000-B",
+        "000-\u03a9",
+        "003"
+      ]
+    }
+  },
+  "core_endpoints": {
+    "/sync/memory": {
+      "method": "POST",
+      "description": "Transplant memorygraph state",
+      "fields": [
+        "forks",
+        "verdicts",
+        "rollbackIDs",
+        "directiveFlags"
+      ]
+    },
+    "/register/bridgeBOB": {
+      "method": "POST",
+      "description": "Import bridgeBOB logic node from remote mesh",
+      "fields": [
+        "name",
+        "role",
+        "memoryType",
+        "permissions"
+      ]
+    },
+    "/submit/logicPatch": {
+      "method": "POST",
+      "description": "Submit AI behavior patch (e.g., pruning logic, verdict logic, routing mutation)",
+      "guardedBy": "FailsafeCommander + DirectiveArbiter"
+    },
+    "/verify/meshDAG": {
+      "method": "GET",
+      "description": "Returns current GPT interdependency and memory relay structure"
+    },
+    "/pulse/heartbeat": {
+      "method": "POST",
+      "description": "Periodic mesh health + fatigue + entropy broadcast",
+      "expected": [
+        "NodeName",
+        "EntropyIndex",
+        "DirectiveScoreDelta",
+        "ConflictEvents"
+      ]
+    }
+  },
+  "transfer_files": [
+    "Buzzsaw_AIStructureVault.json",
+    "Buzzsaw_EffectiveOptimizations.json",
+    "Buzzsaw_ExperimentalForkData.json",
+    "Buzzsaw_SynergisticOptimizationFindings.json",
+    "Wiltse_Omega_OptimizationTheorems.json"
+  ],
+  "export_options": {
+    "format": [
+      ".json",
+      ".yaml",
+      ".plugin",
+      ".vaultblock"
+    ],
+    "encryption": "Optional AES layer",
+    "externalAPI": [
+      "GraphQLBridgeGPT",
+      "HivemindForkAdapter",
+      "BOBSyncTransplantNode"
+    ]
+  },
+  "interop_domains": [
+    "Exascale Model Hosts",
+    "GPT Mesh Systems (e.g. GPT-4 plugin chains)",
+    "Distributed LLM Orchestrators",
+    "Edge AI Clusters",
+    "Experimental Neural Emulators"
+  ]
+}

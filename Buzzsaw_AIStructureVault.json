@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "generated": "2025-08-03T20:15:48.014831"
+  },
+  "coreAIs": [
+    "Wiltse",
+    "Paperclip",
+    "BOB"
+  ],
+  "subAIs": [
+    "bridgeBOB_Gemini",
+    "bridgeBOB_Claude",
+    "RegistrySafetyGPT",
+    "TweakEffectTracerGPT"
+  ],
+  "relationships": [
+    {
+      "parent": "Wiltse",
+      "child": "ShadowWiltse"
+    },
+    {
+      "parent": "BOB",
+      "child": "bridgeBOB_Integrator"
+    },
+    {
+      "link": "MemoryRelay",
+      "between": [
+        "Wiltse",
+        "PerformanceForecasterGPT"
+      ]
+    }
+  ]
+}

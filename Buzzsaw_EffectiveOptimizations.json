@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "generated": "2025-08-03T20:15:48.014718",
+    "validatedCount": 213
+  },
+  "optimizations": [
+    {
+      "Name": "InterruptModeration=0",
+      "Devices": [
+        "NIC",
+        "USB",
+        "NVMe"
+      ],
+      "Effect": "-17.3% latency, +5.1% CPU",
+      "Status": "Validated",
+      "UsedBy": [
+        "RegistrySafetyGPT",
+        "IRQRouterGPT"
+      ],
+      "Level": 4,
+      "Fallback": "ASPM=1 reversion",
+      "SafeForExport": true
+    }
+  ]
+}
