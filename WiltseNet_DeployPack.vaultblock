@@ -1,0 +1,14 @@
+{
+  "signature": "WiltseNet_DeployPack_v1",
+  "contents": [
+    "Buzzsaw_EnterpriseReadiness.json",
+    "Buzzsaw_ExperimentalForkData.json",
+    "Buzzsaw_EffectiveOptimizations.json",
+    "Buzzsaw_AIStructureVault.json",
+    "WiltseNet_CurrentState.json",
+    "GenesisCascade_001_Results.json"
+  ],
+  "verified": true,
+  "encryption": "Simulated (airgapped-compatible)",
+  "timestamp": "2025-08-03T21:38:33.743586"
+}
