@@ -72,5 +72,18 @@ This chart shows 100 fork iterations inside ShadowWiltse, WiltseNet’s simulati
 - Verdict scoring increases, showing clarity
 
 These effects **cannot be achieved with static LLMs**. This is cognitive mesh learning.
+---
+
+## 🧾 Extended Proofs & Benchmarks
+
+- 📜 [proof.md](./proof.md): Fork graph, authorship hash, convergence data
+- 📊 [benchmarks.md](./benchmarks.md): FPS, latency, DPC, and optimization telemetry
+- 🔐 [vaultblock_hash.txt](./vaultblock_hash.txt): SHA-256 archive integrity check
+- 📦 [Wiltse_CommercialBundle_0001.zip](./Wiltse_CommercialBundle_0001.zip): Cryptographic vault archive
+- 📝 License: [Business Source License 1.1](./LICENSE)
+
+All components are timestamped and validated.  
+For commercial licensing, see the included NDA or contact [you@example.com].
+
 
 
