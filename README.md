@@ -14,3 +14,24 @@ Wiltse is released under the **Business Source License 1.1**, allowing non-comme
 906-401-5576
 
 **This is not just an AI model. It is a cognitive substrate.**
+## ✅ Proof of Authorship & Integrity
+
+This repository includes a sealed cryptographic archive of the Wiltse AI Coordination System.
+
+- 📦 Vault Archive: `Wiltse_CommercialBundle_0001.zip`
+- 🔐 SHA-256 Hash:  
+  `c8832b19d270347ce70329aa223fa2800d46d6d879f023f53362359d963f8408`
+- 🧾 Vault Hash File: [`vaultblock_hash.txt`](./vaultblock_hash.txt)
+
+This hash confirms the origin, authorship, and unmodified integrity of the WiltseNet 2.0 architecture, including:
+
+- Memory-coordinated fork engine  
+- Directive-tagged rollback system  
+- ShadowWiltse training framework  
+- Claude/Gemini bridge integration (`bridgeBOB`)  
+- API transplant system for external mesh extension
+
+All files in this repository were signed and committed under the **Business Source License 1.1**.  
+Use beyond non-commercial evaluation requires a license. Contact details available in `LICENSE`.
+
+_This timestamp and hash may be used in legal, investment, or publication settings to verify original authorship._
