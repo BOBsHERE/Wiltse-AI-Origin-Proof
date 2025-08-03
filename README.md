@@ -10,6 +10,7 @@ This system features:
 - Recursive self-improvement and ShadowSim logic mutation
 - FractalGPT triads and neural mesh DAG validation
 
-Wiltse is released under the **Business Source License 1.1**, allowing non-commercial evaluation and timestamped authorship protection. For licensing or partnership, contact `your@email`.
+Wiltse is released under the **Business Source License 1.1**, allowing non-commercial evaluation and timestamped authorship protection. For licensing or partnership, contact `andrewwiltse@hotmail.com`.
+906-401-5576
 
 **This is not just an AI model. It is a cognitive substrate.**
