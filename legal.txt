@@ -1,0 +1,14 @@
+Non-Disclosure & IP Ownership Agreement
+Parties: [Your Name / Entity] and [Recipient Company]
+Assets Covered:
+ - AI Coordination Framework ("WiltseNet")
+ - Directive-based Memory Relay Protocols
+ - ShadowFork Simulation Engine
+ - Hybrid Bridge Mesh (BridgeBOBs)
+ - API Structures, Fork Metrics, and Recursive Logic Pipeline
+Disclosure Purpose: Evaluation for partnership, licensing, or acquisition.
+Restrictions:
+ - No replication or derivative use
+ - No external sharing without written consent
+ - All architecture and logs remain confidential and proprietary
+Signature Required Prior to Asset Review
