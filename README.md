@@ -475,7 +475,7 @@ WiltseMesh can port into any airgapped cluster or hybrid mesh with zero logic dr
 - 📝 License: [Business Source License 1.1](./LICENSE)
 
 All components are timestamped and validated.  
-For commercial licensing, see the included NDA or contact [you@example.com].
+For commercial licensing, see the included NDA or contact [andrewwiltse@hotmail.com].
 
 
 
