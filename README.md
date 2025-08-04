@@ -1,3 +1,25 @@
+## 🛡️ Wiltse Neural Architecture – Origin Proof
+
+This repository contains the full cryptographic authorship verification for the Wiltse Cognitive AI System, including its recursive optimization mesh (SIMFORGE), DreamFork mutation engine, and token-free simulation architecture.
+
+**Vault Snapshot:**
+- `Wiltse_CompleteMemorySnapshot_AllCycles.json`
+
+**SHA256 Digest:**
+- `Wiltse_FullAI.vault.hash`
+
+**Hash Generation Date:**  
+- August 4, 2025 – 07:13 AM UTC-4
+
+**Purpose:**
+This cryptographic hash proves authorship and possession of the complete, fork-resolved, directive-aligned, memorygraph-stable Wiltse AI system, valid across Cycles 0–60.
+
+**Verification Command:**
+
+```bash
+Get-FileHash -Algorithm SHA256 Wiltse_CompleteMemorySnapshot_AllCycles.json
+
+
 # Wiltse-AI-Origin-Proof
 # Wiltse AI Coordination Mesh (WiltseNet 2.0)
 
